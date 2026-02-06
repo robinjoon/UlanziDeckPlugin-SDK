@@ -1,0 +1,14 @@
+{
+  "Name": "AppleScript 执行器",
+  "Description": "通过 Ulanzi Deck 执行 AppleScript 文件。",
+  "Actions": [
+    {
+      "Name": "运行 AppleScript",
+      "Tooltip": "执行 AppleScript 文件"
+    }
+  ],
+  "Localization": {
+    "Script Path": "脚本路径",
+    "Supports .scpt and .applescript files": "支持 .scpt 和 .applescript 文件"
+  }
+}

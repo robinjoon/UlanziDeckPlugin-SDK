@@ -1,0 +1,40 @@
+{
+	"Version": "1.0.0",
+	"Author": "Ulanzi",
+	"Name": "AppleScript Runner",
+	"Description": "Execute AppleScript files from your Ulanzi Deck.",
+	"Icon": "assets/icons/icon.svg",
+	"UUID": "com.ulanzi.ulanzideck.applescript",
+	"Category": "AppleScript",
+	"CategoryIcon": "assets/icons/categoryIcon.svg",
+	"CodePath": "plugin/app.js",
+	"Type": "JavaScript",
+	"PrivateAPI": true,
+	"SupportedInMultiActions": false,
+	"Actions": [
+		{
+			"Name": "Run AppleScript",
+			"Tooltip": "Execute an AppleScript file",
+			"Icon": "assets/icons/actionIcon.svg",
+			"UUID": "com.ulanzi.ulanzideck.applescript.run",
+			"PropertyInspectorPath": "property-inspector/run/inspector.html",
+			"state": 0,
+			"States": [
+				{
+					"Name": "idle",
+					"Image": "assets/icons/icon.svg"
+				}
+			],
+			"SupportedInMultiActions": false
+		}
+	],
+	"OS": [
+		{
+			"Platform": "mac",
+			"MinimumVersion": "10.11"
+		}
+	],
+	"Software": {
+		"MinimumVersion": "6.1"
+	}
+}

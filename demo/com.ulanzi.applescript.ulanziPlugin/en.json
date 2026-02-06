@@ -1,0 +1,14 @@
+{
+  "Name": "AppleScript Runner",
+  "Description": "Execute AppleScript files from your Ulanzi Deck.",
+  "Actions": [
+    {
+      "Name": "Run AppleScript",
+      "Tooltip": "Execute an AppleScript file"
+    }
+  ],
+  "Localization": {
+    "Script Path": "Script Path",
+    "Supports .scpt and .applescript files": "Supports .scpt and .applescript files"
+  }
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+    content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no,minimal-ui,viewport-fit=cover" />
+  <title>AppleScript Runner</title>
+  <link rel="stylesheet" href="../../libs/css/udpi.css">
+</head>
+<body>
+  <div class="udpi-wrapper hidden">
+
+    <form id="property-inspector">
+
+      <div class="udpi-item">
+        <div class="udpi-item-label" data-localize>Script Path</div>
+        <input class="udpi-item-value" type="text" name="script_path"
+          placeholder="/path/to/script.scpt">
+      </div>
+
+      <div class="udpi-item">
+        <div class="udpi-item-label empty"></div>
+        <div class="udpi-item-value" style="font-size: 8pt; color: #999; margin-top: -4px;">
+          <span data-localize>Supports .scpt and .applescript files</span>
+        </div>
+      </div>
+
+    </form>
+
+  </div>
+
+  <script src="../../libs/js/constants.js"></script>
+  <script src="../../libs/js/eventEmitter.js"></script>
+  <script src="../../libs/js/timers.js"></script>
+  <script src="../../libs/js/utils.js"></script>
+  <script src="../../libs/js/ulanzideckApi.js"></script>
+
+  <script src="./inspector.js"></script>
+</body>
+</html>

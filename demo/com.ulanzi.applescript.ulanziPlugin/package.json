@@ -1,0 +1,14 @@
+{
+  "name": "ulanzideck-applescript",
+  "version": "1.0.0",
+  "description": "Ulanzi Deck Plugin - AppleScript Runner",
+  "type": "module",
+  "scripts": {
+    "start": "node plugin/app.js"
+  },
+  "author": "ulanzi",
+  "license": "MIT",
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
